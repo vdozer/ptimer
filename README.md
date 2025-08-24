@@ -3,6 +3,6 @@ Minimal C program to handle your pomodoro sessions in the terminal, records the 
 
 To compile an run the program in one command you can do:
 
-`gcc main.c file.c -o ptimer && ./ptimer`
+`make && ./ptimer`
 
 The session repeat information file is named `ptimer.txt`.
