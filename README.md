@@ -1,3 +1,4 @@
+![Logo](ptimer.png)
 # ptimer
 Minimal C program to handle your pomodoro sessions in the terminal, records the amount of sessions you've had as well.
 
