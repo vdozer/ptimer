@@ -1,8 +1,39 @@
-<img src="ptimer.png" alt="Ptimer logo" height="320" width="240"/>
-Minimal C program to handle your pomodoro sessions in the terminal, records the amount of sessions you've had as well.
+<img src="ptimer.png" alt="Ptimer logo" width="240" height="320" />
 
-To compile and run the program in one command you can do:
+# ptimer
 
-`make && ./ptimer`
+A minimal C program for handling Pomodoro sessions in the terminal.  
+It also keeps track of how many sessions you’ve completed.
 
-The session repeat information file is named `ptimer.txt`.
+---
+
+## Build & run
+
+Compile and run in one command:
+
+```bash
+make && ./ptimer
+```
+
+---
+
+## Usage
+
+When you run the program, you’ll be prompted with:
+
+```
+Start pomodoro? y/n/t
+```
+
+Options:
+
+- **y** → Start a Pomodoro session. You’ll then be asked how many times to repeat.  
+- **n** → Exit the program successfully.  
+- **t** → Test the alarm bell (plays twice) and exit the program successfully
+.  
+
+---
+
+## Notes
+
+- Session repeat data is stored in `ptimer.txt`.
