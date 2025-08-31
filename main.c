@@ -17,7 +17,7 @@ int main(void) {
   char input;
 
   system("clear");
-  printf(ANSI_COLOR_BLUE"PTIMER"ANSI_COLOR_RESET"\n");
+  printf(ANSI_COLOR_BLUE"p"ANSI_COLOR_RED"timer"ANSI_COLOR_RESET"\n");
   printf("Start pomodoro? y/n/t\n");
   scanf(" %c", &input);
   input = tolower(input);
