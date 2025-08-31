@@ -49,7 +49,7 @@ int main(void) {
     return 0;
   }
   if (input == 't') { // Test function
-    printf(ANSLI_COLOR_RED"Testing alarm sound..."ANSI_COLOR_RESET"\n");
+    printf(ANSI_COLOR_RED"Testing alarm sound..."ANSI_COLOR_RESET"\n");
     for (int t = 0; t < 2; t++) {
     system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null");
     }
