@@ -29,14 +29,14 @@ int main(void) {
       printf(ANSI_COLOR_RED"Invalid amount of repeats."ANSI_COLOR_RESET"\n");
       return 1;
     }
-    printf(ANSI_COLOR_RED"Starting working now..."ANSI_COLOR_RESET"\n");
-    system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null");
     for (int x = 0; x < repeat; x++) {
+    printf(ANSI_COLOR_RED"Start working now..."ANSI_COLOR_RESET"\n");
+    system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null");
     sleep(work);
     for (int y = 0; y < 3; y++) {
     system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null"); // This works on my machine but it may not work on others, might change.
     }
-    printf(ANSI_COLOR_GREEN"Starting break now..."ANSI_COLOR_RESET"\n");
+    printf(ANSI_COLOR_GREEN"Start break now..."ANSI_COLOR_RESET"\n");
     sleep(rest);
     for (int y = 0; y < 3; y++) {
     system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null");
