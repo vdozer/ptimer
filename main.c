@@ -41,8 +41,8 @@ int main(void) {
     for (int y = 0; y < 3; y++) {
     system("paplay /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null");
     }
-    completed(repeat); // Record how many repeats the user has completed.
     }
+    completed(repeat); // Record how many repeats the user has completed.
   }
   
   if (input == 'n') {
@@ -55,6 +55,7 @@ int main(void) {
     }
   }
   else {
+    printf(ANSI_COLOR_RED"Unknown option."ANSI_COLOR_RESET"\n");
     return 1;
   }
 }
